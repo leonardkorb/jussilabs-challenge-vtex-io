@@ -1,0 +1,15 @@
+{
+  "vendor": "jussilabs",
+  "name": "challenge",
+  "version": "0.0.1",
+  "builders": {
+    "styles": "2.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-components": "3.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

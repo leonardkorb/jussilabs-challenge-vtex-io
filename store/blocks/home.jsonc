@@ -1,0 +1,32 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#top",
+      "image#example",
+      "rich-text#bottom"
+    ]
+  },
+  "rich-text#top": { 
+    "props": { 
+      "text": "WELCOME",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+
+  "image#example": {
+    "props": {
+      "src": "https://jussilabs.vteximg.com.br/arquivos/jussilabs-logo-official.png"
+    }
+  },
+
+  "rich-text#bottom": { 
+    "props": { 
+      "text": "CHALLENGE VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
