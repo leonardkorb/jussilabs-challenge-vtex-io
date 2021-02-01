@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#top-stores": {
+      "children": [
+        "flex-layout.col#top-store-title",
+        "flex-layout.col#top-store-arrow",
+        "flex-layout.col#top-store-1",
+        "flex-layout.col#top-store-2",
+        "flex-layout.col#top-store-3",
+        "flex-layout.col#top-store-4"
+      ],
+      "props": {
+        "blockClass": "top-stores"
+      }
+    },
+  
+    "flex-layout.col#top-store-title": {
+      "children": [
+        "rich-text#top-store-title"
+      ]
+    },
+    
+    "rich-text#top-store-title": {
+      "props": {
+        "text": "Nossas principais lojas VTEX",
+        "blockClass": "top-store-title"
+      }
+    },
+    
+    "flex-layout.col#top-store-arrow": {
+      "children": [
+        "rich-text#top-store-arrow"
+      ]
+    },
+    "rich-text#top-store-arrow": {
+      "props": {
+        "text": "→",
+        "maxWidth": "10px",
+        "blockClass": "top-store-arrow"
+      }
+    },
+    "flex-layout.col#top-store-1": {
+      "children": [
+        "image#top-store-1"
+      ]
+    },
+    "image#top-store-1": {
+      "props": {
+        "src": "assets/images/logo-brastemp.png"
+      }
+    },
+    "flex-layout.col#top-store-2": {
+      "children": [
+        "image#top-store-2"
+      ]
+    },
+    "image#top-store-2": {
+      "props": {
+        "src": "assets/images/logo-compra-certa.png"
+      }
+    },
+    "flex-layout.col#top-store-3": {
+      "children": [
+        "image#top-store-3"
+      ]
+    },
+    "image#top-store-3": {
+      "props": {
+        "src": "assets/images/logo-consul.png"
+      }
+    },
+    "flex-layout.col#top-store-4": {
+      "children": [
+        "image#top-store-4"
+      ]
+    },
+    "image#top-store-4": {
+      "props": {
+        "src": "assets/images/logo-thebar.png"
+      }
+    },
+
+    "slider-layout#carousel-top-store": {
+      "props": {
+        "itemsPerPage": {
+          "tablet": 2,
+          "phone": 1
+        },
+        "autoplay": {
+          "timeout": 1000,
+          "stopOnHover": false
+        },
+        "infinite": true,
+        "centerMode": {
+          "tablet": "center",
+          "phone": "center"
+        },
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "blockClass": "carousel-top-store"
+      },
+      "children": ["image#top-store-1", "image#top-store-2", "image#top-store-3", "image#top-store-4"]
+    }
+  }

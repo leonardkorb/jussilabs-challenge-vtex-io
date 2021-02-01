@@ -1,0 +1,279 @@
+.infoCardContainer--info-card-main-banner {
+  background: #03ffa5;
+  padding: 40px 0;
+  justify-content: center;
+}
+
+.infoCardTextContainer--info-card-main-banner,
+.infoCardImageContainer--info-card-main-banner {
+  max-width: 520px;
+  width: 100%;
+}
+
+.infoCardTextContainer--info-card-main-banner {
+  position: relative;
+}
+
+.infoCardTextContainer--info-card-main-banner::before {
+  content: "//";
+  display: block;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  top: 24px;
+  left: -46px;
+}
+
+.infoCardHeadline--info-card-main-banner {
+  width: 470px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.infoCardSubhead--info-card-main-banner {
+  width: 300px;
+}
+
+.infoCardSubhead--info-card-main-banner,
+.infoCardSubhead--info-card-info-jussi {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 16px;
+}
+
+.infoCardContainer--info-card-info-jussi {
+  position: relative;
+  justify-content: flex-end;
+  padding-bottom: 0;
+}
+
+.infoCardHeadline--info-card-info-jussi {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.infoCardTextContainer--info-card-info-jussi {
+  padding: 0 20px;
+}
+
+.infoCardImageContainer--info-card-info-jussi {
+  background: #f2f2f2;
+  padding: 20px;
+  position: relative;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+  border: 1px solid black;
+  background: transparent;
+  outline: none;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  border: 1px solid black;
+  background: black;
+}
+
+.infoCardCallActionContainer
+  :global(.vtex-button):hover
+  :global(.vtex-button__label) {
+  color: #03ffa5;
+}
+
+.infoCardCallActionContainer :global(.vtex-button__label) {
+  height: 24px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.newsletter {
+  background: black;
+  height: 436px;
+  display: flex;
+}
+.newsletter .container {
+  max-width: 1200px;
+  max-width: 676px;
+  margin: auto;
+}
+.newsletter .form {
+  width: 100%;
+  max-width: 100%;
+}
+
+.newsletter .label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.newsletter .inputGroup {
+  border-bottom: 1px solid #03ffa5;
+  margin: auto;
+  display: flex;
+}
+
+.newsletter .inputGroup :global(.vtex-input),
+.newsletter .inputGroup :global(.vtex-input-prefix__group),
+.newsletter .inputGroup :global(.vtex-styleguide-9-x-input) {
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+}
+
+.newsletter .inputGroup :global(.vtex-input__error) {
+  margin-top: 22px;
+  position: absolute;
+}
+
+.newsletter .buttonContainer :global(.vtex-button) {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.newsletter .buttonContainer :global(.vtex-button):hover {
+  background: #03ffa5;
+  border-radius: 0;
+}
+.newsletter
+  .buttonContainer
+  :global(.vtex-button):hover
+  :global(.vtex-button__label) {
+  color: black;
+}
+
+.newsletter .buttonContainer :global(.vtex-button__label) {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #03ffa5;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #ee0e7d;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.logoLink--header-logo-mobile {
+  margin: 20px;
+}
+
+.logoContainer--header-logo-mobile {
+  max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+}
+
+@media (min-width: 640px) {
+  .newsletter {
+    height: 436px;
+  }
+  .newsletter .container {
+    max-width: 1200px;
+    max-width: 676px;
+    margin: auto;
+  }
+  .newsletter .form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .newsletter .label {
+    font-size: 32px;
+    width: 610px;
+  }
+
+  .newsletter .inputGroup {
+    width: 502px;
+  }
+
+  .newsletter .inputGroup :global(.vtex-input__error) {
+    margin-top: 12px;
+    position: absolute;
+  }
+}
+@media (min-width: 1024px) {
+  .infoCardTextContainer--info-card-info-jussi {
+    max-width: 545px;
+    margin-right: 0;
+  }
+
+  .infoCardImageContainer--info-card-info-jussi {
+    height: 648px;
+    padding: 0;
+  }
+
+  .infoCardImage--info-card-info-jussi {
+    width: 676px;
+    height: 520px;
+    position: absolute;
+    top: 69px;
+    left: -170px;
+  }
+  .infoCardHeadline--info-card-info-jussi,
+  .infoCardCallActionContainer--info-card-info-jussi {
+    width: 224px;
+  }
+  .infoCardSubhead--info-card-info-jussi {
+    width: 245px;
+  }
+
+  .newsletter .label::before {
+    position: absolute;
+    top: 9px;
+    left: -51px;
+    content: "/ /";
+    font-family: Barlow;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    color: #03ffa5;
+  }
+
+  .logoLink--wppcompany .sizeMobile {
+    max-width: 100%;
+  }
+}

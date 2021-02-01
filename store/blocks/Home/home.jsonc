@@ -1,0 +1,99 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+
+  "responsive-layout.desktop": {
+    "children": [
+      "info-card#main-banner",
+      "flex-layout.row#top-stores",
+      "rich-text#bottom",
+      "info-card#info-jussi",
+      "rich-text#home-contact",
+      "newsletter"
+    ]
+  },
+
+  "responsive-layout.tablet": {
+    "children": [
+      "info-card#main-banner",
+      "rich-text#top-store-title",
+      "slider-layout#carousel-top-store",
+      "rich-text#bottom",
+      "info-card#info-jussi",
+      "rich-text#home-contact",
+      "newsletter"
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [
+      "info-card#main-banner",
+      "rich-text#top-store-title",
+      "slider-layout#carousel-top-store",
+      "rich-text#bottom",
+      "info-card#info-jussi",
+      "rich-text#home-contact",
+      "newsletter"
+    ]
+  },
+
+  "info-card#main-banner": {
+    "props": {
+      "id": "info-card-main-banner",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/main-banner.png",
+      "headline": "Criamos lojas que vendem mais.",
+      "subhead": "A Jüssi é especialista na criação de lojas usando a plataforma VTEX. Precisa criar sua loja ou migrar de plataforma?",
+      "callToActionText": "Veja nossas soluções",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-main-banner",
+      "textAlignment": "left"
+    }
+  },
+
+  "rich-text#bottom": { 
+    "props": { 
+      "text": "CHALLENGE VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+
+  "info-card#info-jussi": {
+    "props": {
+      "id": "info-card-info-jussi",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/info-jussi.png",
+      "headline": "Olá, somos a Jüssi",
+      "subhead": "A Jüssi é uma agência integrante do grupo global WPP que vem há 10 anos consolidando o pensamento voltado para produtos e resolução de problemas. Nosso área dedicada exclusivamente para Produtos Digitais é organizada em 6 especialidades: Product Managamenet, User Experience Design, SEO, Tecnologia, Agile e User Behavior Analytics.",
+      "callToActionText": "Conheça a Jüssi",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-info-jussi",
+      "textAlignment": "left"
+    }
+  },
+  "rich-text#home-contact": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Essa loja foi construída usando uma das nossas soluções da plataforma VTEX. tenha a sua.** \n ###### Entre em contato \n [comercial@jussi.com.br](comercial@jussi.com.br)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "home-contact"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "label": "receba novidades da nossa área de produtos digitais.",
+      "placeholder": "Digite seu e-mail",
+      "submit": "Cadastrar"
+    }
+  }
+}
