@@ -1,0 +1,92 @@
+{
+    "footer": {
+      "blocks": [
+        "footer-layout.desktop",
+        "footer-layout.mobile"
+      ]
+    },
+    "footer-layout.desktop": {
+      "children": [
+        "flex-layout.row#footer-desktop"
+      ]
+    },
+
+    "flex-layout.row#footer-desktop": {
+      "children": [
+        "logo#wpp",
+        "flex-layout.row#social-networks"
+      ],
+      "props": {
+        "blockClass": "footer",
+        "paddingTop": 6,
+        "paddingBottom": 6
+      }
+    },
+    
+    "footer-layout.mobile": {
+      "children": [
+        "flex-layout.row#footer-mobile"
+      ]
+    },
+
+    "flex-layout.row#footer-mobile": {
+      "children": [
+        "flex-layout.row#social-networks",
+        "logo#wpp"
+      ],
+      "props": {
+        "blockClass": "footer-mobile",
+        "paddingTop": 0,
+        "paddingBottom": 6
+      }
+    },
+
+    "logo#wpp": {
+      "props": {
+        "width": 142,
+        "height": 27,
+        "url": "assets/images/logo-wppcompany.png",
+        "href": "https://www.wpp.com/",
+        "blockClass": "wppcompany"
+      }
+    },
+
+    "flex-layout.row#social-networks": {
+      "children": [
+        "logo#facebook",
+        "logo#instagram",
+        "logo#linkedin"
+      ],
+      "props": {
+        "blockClass": "social-networks",
+        "horizontalAlign": "center",
+        "fullWidth": false
+      }
+    },
+
+
+    "logo#facebook": {
+      "props": {
+        "width": 32,
+        "height": 32,
+        "url": "assets/images/logo-facebook.png",
+        "href": "https://www.facebook.com/agencia.jussi"
+      }
+    },
+    "logo#instagram": {
+      "props": {
+        "width": 32,
+        "height": 32,
+        "url": "assets/images/logo-instagram.png",
+        "href": "https://www.instagram.com/jussi/"
+      }
+    },
+    "logo#linkedin": {
+      "props": {
+        "width": 32,
+        "height": 32,
+        "url": "assets/images/logo-linkedin.png",
+        "href": "https://www.linkedin.com/company/agencia-jussi/"
+      }
+    }
+  }
