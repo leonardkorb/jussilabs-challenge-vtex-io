@@ -1,0 +1,11 @@
+.sliderLayoutContainer--carousel-top-store {
+    background: #F2F2F2;
+    padding-bottom: 10px;
+}
+.sliderLayoutContainer--carousel-top-store::after {
+    background: linear-gradient(90deg, #F2F2F2 -10%, #F2F2F200 20%, #F2F2F200 80%, #F2F2F2 110%);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 48px;
+}
